@@ -1,0 +1,29 @@
+{
+  "name": "redux-middleware-socket",
+  "version": "0.0.1",
+  "description": "Yet another redux-middleware for handling web-sockets connections",
+  "main": "index.js",
+  "author": "Divyesh Purohit",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "yarn test -- --watch"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "^23.6.0",
+    "redux": "^4.0.0",
+    "testdouble": "^3.8.2",
+    "ws": "^6.0.0"
+  }
+}
